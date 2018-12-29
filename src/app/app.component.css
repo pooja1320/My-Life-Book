@@ -1,0 +1,46 @@
+.login-parent-container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.login-container{
+  width: 460px;
+  height: 450px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.logo-container{
+  height: 170px;
+  background-color: blue;
+}
+.logo-container .logo .material-icons {
+  font-size: 50px;
+  color: whitesmoke;
+  padding-top: 18px;
+}
+.login-header-container {
+  display: flex;
+  flex-direction: column;
+}
+.login-header {
+  font-size: 50px;
+  color: whitesmoke;
+}
+.sign-up-container {
+  margin-top: 26px;
+}
+.sign-up-text {
+ color: #ff4081;
+ 
+}
+.email-container mat-form-field, .password-container mat-form-field {
+  width: 90%;
+}
+.login > * {
+  width: 100%;
+}
+.email-container mat-form-field span {
+  vertical-align: sub;
+}
