@@ -9,9 +9,12 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import { FormsModule, ReactiveFormsModule } from '../../node_modules/@angular/forms';
+import { LoginComponent } from './login/login/login.component';
+import { AppRoutingModule } from './app-routing.module';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -25,7 +28,8 @@ import { FormsModule, ReactiveFormsModule } from '../../node_modules/@angular/fo
     MatIconModule,
     MatFormFieldModule,
     MatInputModule,
-    MatSlideToggleModule
+    MatSlideToggleModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
